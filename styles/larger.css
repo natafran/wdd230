@@ -8,44 +8,9 @@
         row-gap: 2rem;
     }
     body {
-        font-family: Kodchasan, Helvetica;
-    }
-    
-    /* .topnav {
-        overflow: hidden;
-        background-color: #333;
-        position: flex;
+        font-family: 'Kodchasan', 'Helvetica';
     }
 
-    .topnav #myLinks {
-        display: none;
-    }
-    
-    .topnav a {
-        color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-    }
-    
-    .topnav a.icon {
-        background: black;
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    
-    .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-    }
-    
-    .active {
-        background-color: #0f4c5c;
-        color: white;
-    } */
     nav{
         display: flex;
         justify-content: right;
@@ -91,7 +56,7 @@
     h2{
         text-align: left;
         border-bottom-style: solid;
-        font-family: Kodchasan, Helvetica;
+        font-family: 'Kodchasan', 'Helvetica';
         font-size: 36px;
         grid-column: 2/4;
         grid-row: 1/2;
@@ -102,7 +67,7 @@
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
         text-align: center;
-        font-family: Kodchasan, Helvetica;
+        font-family: 'Kodchasan', 'Helvetica';
         background-color:grey;
         color: white;
         font-size: 28px;
@@ -137,6 +102,6 @@
         padding: 1rem;
         background-color:lightblue;
         text-align: center;
-        font-family: Kodchasan, Helvetica;
+        font-family: 'Kodchasan', 'Helvetica';
     }
 }
