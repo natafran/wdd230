@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="WDD230 - Natalie Franceschi" content="Course Assignment Portal">
     <title>WDD 230 - Portal - Natalie Franceschi</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -21,27 +22,36 @@
 <body>
     <main class="main-grid">
         <h2>WDD 230: Course Activity Portal</h2>
-        <section class="learning-card">
+        <section class="card" id="learning-card">
             <h3>Learning Activities</h3>
+            <ul>
+                <li>Week 1: <a href="https://natafran.github.io/wdd230/week01/holygrail.html">Holy Grail</a></li>
+
+
+            </ul>
 
         </section>
-        <section class="project-card">
+        <section class="card" id="project-card">
             <h3>Project</h3>
             <p>Santa Clarita Chamber of Commerce</p>
         </section>
-        <section class="information-card">
+        <section class="card" id="information-card">
             <h3>Information</h3>
+            <ul>
+                <li>Weather</li>
+                <li>Number of Visits</li>
+            </ul>
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 - Natalie Franceschi - USA</p>
+        <p>&copy; <span id="copyrightYear"></span> - Natalie Franceschi - USA</p>
         <p class="highlight">This document was last modified:</p>
         <p id="lastModified"></p>
 
-        <script>
+        <!-- <script>
         let text = document.lastModified;
         document.getElementById("lastModified").innerHTML = text;
-        </script>
+        </script> -->
 
 
     </footer>
