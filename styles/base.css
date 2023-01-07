@@ -4,7 +4,7 @@
     height: auto;
 }
 body {
-    font-family: Kodchasan, Helvetica;
+    font-family: "Kodchasan", "Helvetica";
 }
 
 /* .topnav {
@@ -87,7 +87,7 @@ h1 {
 h2{
     text-align: left;
     border-bottom-style: solid;
-    font-family: Kodchasan, Helvetica;
+    font-family: "Kodchasan", "Helvetica";
     font-size: 36px;
     grid-column: 2/4;
     grid-row: 1/2;
@@ -98,7 +98,7 @@ h3{
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     text-align: center;
-    font-family: Kodchasan, Helvetica;
+    font-family: "Kodchasan", "Helvetica";
     background-color:grey;
     color: white;
     font-size: 28px;
@@ -133,5 +133,5 @@ footer{
     padding: 1rem;
     background-color:lightblue;
     text-align: center;
-    font-family: Kodchasan, Helvetica;
+    font-family: "Kodchasan", "Helvetica";
 }
