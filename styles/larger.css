@@ -76,6 +76,8 @@
     .card{
         border-radius: 25px;
         border-style: solid;
+        font-size: 18px;
+        line-height: 35px;
     }
     #learning-card {
         grid-column: 2/3;
@@ -93,6 +95,7 @@
     }
     li {
         list-style: none;
+    
     }
 
     footer{
