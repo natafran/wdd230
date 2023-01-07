@@ -69,26 +69,25 @@ h3{
     font-size: 28px;
     padding: 10px;
 }
-.learning-card {
+.card{
     border-radius: 25px;
     border-style: solid;
+}
+#learning-card {
     grid-column: 2/3;
     grid-row: 2/4;
 }
-.project-card {
-    border-radius: 25px;
-    border-style: solid;
+#project-card {
     grid-column: 3/4;
     grid-row: 2/3;
     font-size: 16px;
     text-align: center;
 }
-.information-card {
-    border-radius: 25px;
-    border-style: solid;
+#information-card {
     grid-column: 3/4;
     grid-row: 3/4;    
 }
+
 li {
     list-style: none;
 }
