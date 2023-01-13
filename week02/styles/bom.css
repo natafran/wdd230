@@ -14,6 +14,7 @@ body {
 
 h1 {
 	font-size: 1.5rem;
+    background-color:aquamarine;
 }
 
 main {
@@ -50,7 +51,7 @@ button {
 ul {
 	margin: 1rem;
 	list-style: none;
-  border: 1px dotted black;
+    border: 1px dotted black;
 }
 
 li {
