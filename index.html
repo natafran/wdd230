@@ -11,14 +11,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Kodchasan:ital@1&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Natalie Franceschi Student Page WDD230">
+    <meta property="og:url" content="https://natafran.github.io/wdd230/index.html">
+    <meta property="og:description" content="Student homepage for assignments submitted by Natalie Franceschi in Course WDD230.">
+    <meta property="og:image" content="https://i0.wp.com/scvnews.com/wp-content/uploads/2011/12/citylogo_seal.jpg">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://natafran.github.io/wdd230/index.html">
 
 </head>
 <body>
-    <nav>
+    <nav class ="navbar">
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="https://www.linkedin.com/in/natalie-franceschi/" class="nav-link">LinkedIn</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://www.byui.edu" class="nav-link">BYU-Idaho</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <!-- <nav>
+        <ul class="navigation">
+            <li><a class="menu" href=""></a></li>
+            <a href="#">&#9776</a>
+            <li><a href="https://natafran.github.io/wdd230/index.html">Home</a></li>
+            <li><a href="https://www.linkedin.com/in/natalie-franceschi/">LinkedIn</a></li>
+            <li><a href="https://www.byui.edu">BYU-Idaho</a></li>
+        </m>
+
+    </nav> -->
+    <!-- <nav>
+        <img class="hamburger" src="images/menu-icon.svg" alt="menu icon">
         <a href="https://www.linkedin.com/in/natalie-franceschi/">LinkedIn</a>
         <a href="https://www.byui.edu">BYU-Idaho</a>
-        <img class="hamburger" src="images/menu-icon.svg" alt="menu icon">
-    </nav>
+        
+    </nav> -->
     <header>
         <img class="profile" src="images/profile-pic.jpg" alt="Student photo">
         <h1>Natalie Franceschi</h1>
@@ -27,7 +60,7 @@
         <h2>WDD 230: Course Activity Portal</h2>
         <section class="card" id="learning-card">
             <h3>Learning Activities</h3>
-            <ul>
+            <ul class="card-menu"> 
                 <li>Week 1: <a href="https://natafran.github.io/wdd230/week01/holygrail.html">Holy Grail</a> | <a href="https://natafran.github.io/wdd230/week01/media-query.html">Media Query</a> | <a href="https://natafran.github.io/wdd230/week01/chamber-site-plan.html">Site Plan</a></li>
                 <li>Week 2:</li>
                 <li>Week 3:</li>
@@ -42,7 +75,7 @@
         </section>
         <section class="card" id="information-card">
             <h3>Information</h3>
-            <ul>
+            <ul class="card-menu">
                 <li>Weather</li>
                 <li>Number of Visits</li>
             </ul>
