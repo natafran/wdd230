@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital@1&family=Pacifico&display=swap');    
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital@1&family=Pacifico&display=swap');  */
 *{
     padding: 0;
     margin: 0;
@@ -6,11 +8,12 @@
 
 }
 .main-grid {
+    margin: 2rem;
     display: block;
     height: auto;
 }
 body {
-    font-family: 'Kodchasan', 'Helvetica';
+    font-family: 'Anton', 'Helvetica';
 }
 
 nav{
@@ -135,7 +138,7 @@ h2{
     margin-bottom:2rem;
     text-align: left;
     border-bottom-style: solid;
-    font-family: 'Kodchasan', 'Helvetica';
+    font-family: 'Anton', 'Helvetica';
     font-size: 36px;
     grid-column: 2/4;
     grid-row: 1/2;
@@ -146,7 +149,7 @@ h3{
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     text-align: center;
-    font-family: 'Kodchasan', 'Helvetica';
+    font-family: 'Anton', 'Helvetica';
     background-color:grey;
     color: white;
     font-size: 28px;
@@ -182,7 +185,7 @@ footer{
     padding: 1rem;
     background-color:lightblue;
     text-align: center;
-    font-family: 'Kodchasan', 'Helvetica';
+    font-family: 'Anton', 'Helvetica';
 }
 
 
