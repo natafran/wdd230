@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Roboto&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital@1&family=Pacifico&display=swap'); */
+@media only screen and (min-width: 600px){
+    .main-grid {
+        margin: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    body {
+        font-family: 'Roboto', 'Helvetica';
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 2rem;
+        background-color: lightblue;
+    }
+   
+    nav a {
+        padding-top:1rem;
+        padding-right: 3rem;
+        color: black;
+        text-decoration: none;
+    }
+    nav a:hover {
+        background-color: lightgray;
+        color: black;
+        text-decoration: underline;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    header {
+        padding-top:1rem;
+        padding-bottom:1rem;
+        background-color: grey;
+        color: black;
+    }
+
+    .profile {
+        grid-column: 1/2;
+    }
+ 
+
+    h1 {
+        text-align: center;
+        color:white;
+        font-family: 'Lobster', 'Georgia', 'Garamond';
+        font-size: 68px;
+        text-shadow: 2px 2px black;
+    }
+    main h2{
+        text-align: left;
+        border-bottom-style: solid;
+        font-family: 'Roboto', 'Helvetica';
+        font-size: 36px;
+        grid-column: 1 / span 2;
+    
+
+    }
+    h3{
+        margin-top: auto;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        text-align: center;
+        font-family: 'Roboto', 'Helvetica';
+        background-color:grey;
+        color: white;
+        font-size: 28px;
+        padding: 10px;
+    }
+    .card{
+        border-radius: 25px;
+        border-style: solid;
+        font-size: 18px;
+        line-height: 35px;
+    }
+    #learning-card {
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+    #project-card {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        font-size: 16px;
+        text-align: center;
+    }
+    #information-card {
+        grid-column: 2/3;
+        grid-row: 3/4;    
+    }
+    li {
+        list-style: none;
+    
+    }
+  
+
+    footer{
+        margin-top: 25px;
+        padding: 1rem;
+        background-color:lightblue;
+        text-align: center;
+        font-family: 'Roboto', 'Helvetica';
+    }
+}
